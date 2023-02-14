@@ -1,0 +1,13 @@
+name: PluginSample
+version: '${project.version}'
+main: fr.velris.pluginsample.PluginSample
+api-version: 1.19
+authors: [ Velris ]
+description: An example of how to structure your minecraft plugin
+commands:
+  test:
+    description: Test command
+    permission: test.command
+    usage: /<command> [test | tester]
+    aliases:
+      - testy
